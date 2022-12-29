@@ -16,6 +16,6 @@ The saga-orchestration project contains the code for the individual lambda funct
 * `dotnet build src`
 * `dotnet lambda package`
 
-The packaged lambda function zip file will be present in the bin/Release/netcoreapp3.1 folder.
+The packaged lambda function zip file will be present in the bin/Release/net6.0 folder.
 
 Once packaged, create a folder called "lambdas" in the directory where cdk.json file is present. Copy the packaged lambda functions to this folder. The packaged lambda functions (zip files) should be present here for CDK to deploy to the AWS environment.
