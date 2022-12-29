@@ -123,7 +123,7 @@ namespace CdkSagaOrchestration
                     {
                         StatusCode = "200", ResponseModels = new Dictionary<string, IModel>()
                         {
-                            ["application/json"] = new EmptyModel()
+                            ["application/json"] = Model.EMPTY_MODEL
                         }
                     }
                 }
@@ -159,7 +159,7 @@ namespace CdkSagaOrchestration
                     {
                         StatusCode = "200", ResponseModels = new Dictionary<string, IModel>()
                         {
-                            ["application/json"] = new EmptyModel()
+                            ["application/json"] = Model.EMPTY_MODEL
                         }
                     }
                 }
