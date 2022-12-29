@@ -30,6 +30,6 @@ phases:
       - dotnet tool update -g Amazon.Lambda.Tools
       - dotnet build -c Release SendNotificationLambda.csproj
       - dotnet test -c Release ../../test/SendNotificationLambda.Tests/SendNotificationLambda.Tests.csproj
-      - dotnet lambda deploy-function "SendNotificationLambda" --function-role "arn:aws:iam::119176563765:role/AwsomeLambdaExecutionRole" --region "ap-southeast-2"
+      - dotnet lambda deploy-function "SendNotificationLambda" --function-role "arn:aws:iam::119176563765:role/AwsomeLambdaExecutionRole" --region "eu-central-1"
       - cd "$DB_IMG_PATH"
       - pwd

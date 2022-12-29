@@ -1,5 +1,5 @@
 {
-  "app": "dotnet run -p src/CdkSagaOrchestration/CdkSagaOrchestration.csproj",
+  "app": "dotnet run --project src/CdkSagaOrchestration/CdkSagaOrchestration.csproj",
   "context": {
     "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
     "@aws-cdk/core:enableStackNameDuplicates": "true",
