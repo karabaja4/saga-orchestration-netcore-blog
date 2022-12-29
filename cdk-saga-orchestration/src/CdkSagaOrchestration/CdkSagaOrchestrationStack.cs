@@ -75,7 +75,7 @@ namespace CdkSagaOrchestration
             var invokeOrchestratorLambda = new Function(this,"InvokeOrchestratorLambda", new FunctionProps
             {
                 FunctionName = "InvokeOrchestratorLambda",
-                Runtime = Runtime.DOTNET_CORE_3_1,
+                Runtime = Runtime.DOTNET_6,
                 Handler = "InvokeOrchestratorLambda::InvokeOrchestratorLambda.InvokeOrchestrator::FunctionHandler",
                 Role = iamLambdaRole,
                 Code = Code.FromAsset("lambdas/InvokeOrchestratorLambda.zip"),
@@ -172,7 +172,7 @@ namespace CdkSagaOrchestration
              var placeOrderLambda = new Function(this,"PlaceOrderLambda", new FunctionProps
              {
                  FunctionName = "PlaceOrderLambda",
-                 Runtime = Runtime.DOTNET_CORE_3_1,
+                 Runtime = Runtime.DOTNET_6,
                  Handler = "PlaceOrderLambda::PlaceOrderLambda.PlaceOrder::FunctionHandler",
                  Role = iamLambdaRole,
                  Code = Code.FromAsset("lambdas/PlaceOrderLambda.zip"),
@@ -182,7 +182,7 @@ namespace CdkSagaOrchestration
              var updateInventoryLambda = new Function(this,"UpdateInventoryLambda", new FunctionProps
              {
                  FunctionName = "UpdateInventoryLambda",
-                 Runtime = Runtime.DOTNET_CORE_3_1,
+                 Runtime = Runtime.DOTNET_6,
                  Handler = "UpdateInventoryLambda::UpdateInventoryLambda.UpdateInventory::FunctionHandler",
                  Role = iamLambdaRole,
                  Code = Code.FromAsset("lambdas/UpdateInventoryLambda.zip"),
@@ -192,7 +192,7 @@ namespace CdkSagaOrchestration
              var makePaymentLambda = new Function(this,"MakePaymentLambda", new FunctionProps
              {
                  FunctionName = "MakePaymentLambda",
-                 Runtime = Runtime.DOTNET_CORE_3_1,
+                 Runtime = Runtime.DOTNET_6,
                  Handler = "MakePaymentLambda::MakePaymentLambda.MakePayment::FunctionHandler",
                  Role = iamLambdaRole,
                  Code = Code.FromAsset("lambdas/MakePaymentLambda.zip"),
@@ -202,7 +202,7 @@ namespace CdkSagaOrchestration
              var revertPaymentLambda = new Function(this,"RevertPaymentLambda", new FunctionProps
              {
                  FunctionName = "RevertPaymentLambda",
-                 Runtime = Runtime.DOTNET_CORE_3_1,
+                 Runtime = Runtime.DOTNET_6,
                  Handler = "RevertPaymentLambda::RevertPaymentLambda.RevertPayment::FunctionHandler",
                  Role = iamLambdaRole,
                  Code = Code.FromAsset("lambdas/RevertPaymentLambda.zip"),
@@ -212,7 +212,7 @@ namespace CdkSagaOrchestration
              var revertInventoryLambda = new Function(this,"RevertInventoryLambda", new FunctionProps
              {
                  FunctionName = "RevertInventoryLambda",
-                 Runtime = Runtime.DOTNET_CORE_3_1,
+                 Runtime = Runtime.DOTNET_6,
                  Handler = "RevertInventoryLambda::RevertInventoryLambda.RevertInventory::FunctionHandler",
                  Role = iamLambdaRole,
                  Code = Code.FromAsset("lambdas/RevertInventoryLambda.zip"),
@@ -222,7 +222,7 @@ namespace CdkSagaOrchestration
              var removeOrderLambda = new Function(this,"RemoveOrderLambda", new FunctionProps
              {
                  FunctionName = "RemoveOrderLambda",
-                 Runtime = Runtime.DOTNET_CORE_3_1,
+                 Runtime = Runtime.DOTNET_6,
                  Handler = "RemoveOrderLambda::RemoveOrderLambda.RemoveOrder::FunctionHandler",
                  Role = iamLambdaRole,
                  Code = Code.FromAsset("lambdas/RemoveOrderLambda.zip"),
