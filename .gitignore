@@ -83,3 +83,6 @@ fabric.properties
 
 **/cdk.out
 **/lambdas/*
+
+.vscode/
+.vs/
