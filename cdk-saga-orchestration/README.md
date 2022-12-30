@@ -30,7 +30,7 @@ dotnet tool install -g Amazon.Lambda.Tools
 cd cdk-saga-orchestration
 rm -rf cdk.out
 cdk bootstrap
-cdk synth 
+cdk synth
 cdk deploy
 cdk destroy
 ```
