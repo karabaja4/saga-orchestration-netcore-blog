@@ -1,0 +1,14 @@
+[
+    {
+        "ItemId": "ITEM001",
+        "CustomerId": "ABC/002",
+        "MessageId": "",
+        "FailAtStage": "None"
+      },
+      {
+        "ItemId": "ITEM002",
+        "CustomerId": "DEF/002",
+        "MessageId": "",
+        "FailAtStage": "UpdateInventory"
+      }
+]

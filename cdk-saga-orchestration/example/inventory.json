@@ -1,0 +1,20 @@
+[
+    {
+        "ItemId": "ITEM001",
+        "ItemName": "Soap",
+        "ItemsInStock": 1000,
+        "ItemStatus": ""
+      },
+      {
+        "ItemId": "ITEM002",
+        "ItemName": "Shampoo",
+        "ItemsInStock": 500,
+        "ItemStatus": ""
+      },
+      {
+        "ItemId": "ITEM003",
+        "ItemName": "Toothpaste",
+        "ItemsInStock": 2000,
+        "ItemStatus": ""
+      }
+]

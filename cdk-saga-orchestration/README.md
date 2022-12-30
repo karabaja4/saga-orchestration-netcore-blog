@@ -26,8 +26,9 @@ https://aws.amazon.com/blogs/compute/building-a-serverless-distributed-applicati
 
 ```
 cd cdk-saga-orchestration
-rm -r cdk.out
+rm -rf cdk.out
 cdk bootstrap
 cdk synth 
 cdk deploy
+cdk destroy
 ```
