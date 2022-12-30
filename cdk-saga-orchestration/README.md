@@ -25,6 +25,7 @@ Once packaged, create a folder called "lambdas" in the directory where cdk.json 
 https://aws.amazon.com/blogs/compute/building-a-serverless-distributed-application-using-a-saga-orchestration-pattern/
 
 ```
+npm install -g aws-cdk
 cd cdk-saga-orchestration
 rm -rf cdk.out
 cdk bootstrap
