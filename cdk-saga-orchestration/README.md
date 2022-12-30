@@ -26,6 +26,7 @@ https://aws.amazon.com/blogs/compute/building-a-serverless-distributed-applicati
 
 ```
 npm install -g aws-cdk
+dotnet tool install -g Amazon.Lambda.Tools
 cd cdk-saga-orchestration
 rm -rf cdk.out
 cdk bootstrap
